@@ -1,0 +1,51 @@
+.container-header {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    padding-left: 40px;
+    justify-content: space-evenly;
+
+}
+
+.container-header__front {
+    position: relative;
+    
+
+}
+
+.container-header__box-color{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    background-color: rgba(251, 233, 233, 1);
+    opacity: 0.7;
+    border-radius: 50%;
+    top: -8%;
+    left: -12%;
+
+}
+
+.container-header__header {
+    color: $colorHeaderTextBox;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 100%;
+    z-index: 1;
+    position: relative;
+    margin: 0;
+    padding-top: 26px;
+    padding-bottom: 26px;
+
+}
+
+.container-header__description{
+    color: #7E7FA0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 170%;
+
+}
+
+.container-header__text {
+
+}

@@ -1,0 +1,135 @@
+.container-essential {
+    margin-bottom: 50px;
+
+}
+
+.container-essential__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 150px 86px 100px 86px;
+
+}
+
+.container-essential__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-essential__heading {
+    color: $colorHeaderBodyTextBox;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 66.667%;
+    text-align: center;
+
+}
+
+.container-essential__heading--color{
+    color: #5E68F9;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 66.667%;
+
+}
+
+.container-essential__description {
+    display: block;
+    width: 671px;
+    color: #7E7FA0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 145%;
+
+}
+
+
+// body
+.container-essential__content-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-essential__body--title {
+    border-radius: 16px;
+    background: $colorPrimary;
+    min-height: 100%;
+    padding: 36px;
+
+}
+
+.container-essential__heart {
+    background-color: #FFF1F0;
+    color: #DFAFAF;
+ 
+}
+
+.container-essential__clock {
+    background-color: #F2E9FA;    
+    color: #AE70D5;
+
+}
+
+.container-essential__book {
+    background-color: #E4F7FA;
+    color: #5EBFCD;
+
+}
+
+.container-essential__gear {
+    background-color: #E4E6FB;
+    color: #5961CC;
+
+}
+
+.container-essential__thumbs {
+    background-color: #FDE9F4;
+    color: #D875A3;
+
+}
+
+.container-essential__check {
+    background-color: #E4F9E6;
+    color: #6BC973;
+
+}
+
+
+.container-essential__icon {
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container-essential__body--heading {
+    color: $colorHeaderBodyTextBox;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 104.348%;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 23px;
+
+}
+
+.container-essential__body--description {
+    display: block;
+    color: $colorTextBox;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 165%;
+
+}

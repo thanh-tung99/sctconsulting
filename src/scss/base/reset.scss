@@ -1,0 +1,46 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+:root {
+    --grid: 12;
+    --grid-container-width: 1700px;
+    --grid-container-gap: 15px;
+    --grid-col-gap-vertical: 30px;
+    --grid-col-gap-horizontal: 30px;
+}
+
+body{
+    font-size: 20px;
+    background-color: $colorPrimary;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.7;
+    font-weight: 500;
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+  
+h2 {
+    font-size: 36px;
+}
+  
+h3 {
+    font-size: 30px;
+}
+  
+h4 {
+    font-size: 26px;
+}
+  
+h5 {
+    font-size: 20px;
+}
+  
+h6 {
+    font-size: 16px;
+}

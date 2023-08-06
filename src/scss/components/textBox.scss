@@ -1,0 +1,30 @@
+.text-box {
+
+}
+
+.text-box__color {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-box-color);
+    overflow: hidden;
+    &:before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: var(--text-box-color);
+      opacity: 0.2;
+    }
+    @media (max-width: 500px) {
+      width: 40px;
+      height: 40px;
+    }
+}
+
+.text-box__description {
+    font-size: 20px;
+}
