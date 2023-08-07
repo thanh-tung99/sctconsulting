@@ -330,6 +330,10 @@ body {
   font-weight: 500;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -562,6 +566,7 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   line-height: 170%;
+  padding: 20px 0;
 }
 
 .container-trusted {
@@ -611,6 +616,7 @@ h6 {
   line-height: 145%;
   width: 685px;
   height: 121px;
+  padding: 20px 0;
 }
 
 .container-feedback {
@@ -655,6 +661,7 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   line-height: 185%;
+  padding: 20px 0;
 }
 
 .container-feedback__name {
@@ -662,15 +669,15 @@ h6 {
   padding-top: 16px;
 }
 
-.container-feedback__name--line {
+.container-feedback__line {
   width: 26px;
   height: 1px;
   background-color: #7E7FA0;
-  transform: translateY(30px);
+  transform: translateY(12px);
   margin-right: 10px;
 }
 
-.container-feedback__name--customer {
+.container-feedback__customer {
   color: #2D2A3E;
   font-size: 18px;
   font-weight: 800;
@@ -706,6 +713,7 @@ h6 {
   font-weight: 700;
   line-height: 66.667%;
   text-align: center;
+  padding: 30px 0;
 }
 
 .container-essential__heading--color {
@@ -723,6 +731,7 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   line-height: 145%;
+  padding: 20px 0;
 }
 
 .container-essential__content-body {
@@ -731,39 +740,39 @@ h6 {
   align-items: center;
 }
 
-.container-essential__body--title {
+.container-essential__box {
   border-radius: 16px;
   background: #FFF;
   min-height: 100%;
   padding: 36px;
 }
 
-.container-essential__heart {
+.container-essential__icon--heart {
   background-color: #FFF1F0;
   color: #DFAFAF;
 }
 
-.container-essential__clock {
+.container-essential__icon--clock {
   background-color: #F2E9FA;
   color: #AE70D5;
 }
 
-.container-essential__book {
+.container-essential__icon--book {
   background-color: #E4F7FA;
   color: #5EBFCD;
 }
 
-.container-essential__gear {
+.container-essential__icon--gear {
   background-color: #E4E6FB;
   color: #5961CC;
 }
 
-.container-essential__thumbs {
+.container-essential__icon--thumbs {
   background-color: #FDE9F4;
   color: #D875A3;
 }
 
-.container-essential__check {
+.container-essential__icon--check {
   background-color: #E4F9E6;
   color: #6BC973;
 }
@@ -778,7 +787,7 @@ h6 {
   justify-content: center;
 }
 
-.container-essential__body--heading {
+.container-essential__box-title {
   color: #2D2A3E;
   font-size: 23px;
   font-weight: 800;
@@ -788,12 +797,13 @@ h6 {
   padding-bottom: 23px;
 }
 
-.container-essential__body--description {
+.container-essential__box-description {
   display: block;
   color: #7E7FA0;
   font-size: 20px;
   font-weight: 500;
   line-height: 165%;
+  padding: 20px 0;
 }
 
 .container-popular {
@@ -834,8 +844,8 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   line-height: 145%;
-  margin-top: 46px;
-  margin-bottom: 60px;
+  padding-top: 66px;
+  padding-bottom: 80px;
 }
 
 .product__img {
@@ -858,6 +868,7 @@ h6 {
   font-size: 15px;
   font-weight: 500;
   line-height: 160%;
+  padding: 15px 0;
 }
 
 .product__design {

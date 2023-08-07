@@ -26,6 +26,7 @@
     font-weight: 700;
     line-height: 66.667%;
     text-align: center;
+    padding: 30px 0;
 
 }
 
@@ -45,6 +46,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 145%;
+    padding: 20px 0;
 
 }
 
@@ -57,7 +59,7 @@
 
 }
 
-.container-essential__body--title {
+.container-essential__box {
     border-radius: 16px;
     background: $colorPrimary;
     min-height: 100%;
@@ -65,37 +67,37 @@
 
 }
 
-.container-essential__heart {
+.container-essential__icon--heart {
     background-color: #FFF1F0;
     color: #DFAFAF;
  
 }
 
-.container-essential__clock {
+.container-essential__icon--clock {
     background-color: #F2E9FA;    
     color: #AE70D5;
 
 }
 
-.container-essential__book {
+.container-essential__icon--book {
     background-color: #E4F7FA;
     color: #5EBFCD;
 
 }
 
-.container-essential__gear {
+.container-essential__icon--gear {
     background-color: #E4E6FB;
     color: #5961CC;
 
 }
 
-.container-essential__thumbs {
+.container-essential__icon--thumbs {
     background-color: #FDE9F4;
     color: #D875A3;
 
 }
 
-.container-essential__check {
+.container-essential__icon--check {
     background-color: #E4F9E6;
     color: #6BC973;
 
@@ -114,7 +116,7 @@
 
 }
 
-.container-essential__body--heading {
+.container-essential__box-title {
     color: $colorHeaderBodyTextBox;
     font-size: 23px;
     font-weight: 800;
@@ -125,11 +127,12 @@
 
 }
 
-.container-essential__body--description {
+.container-essential__box-description {
     display: block;
     color: $colorTextBox;
     font-size: 20px;
     font-weight: 500;
     line-height: 165%;
+    padding: 20px 0;
 
 }

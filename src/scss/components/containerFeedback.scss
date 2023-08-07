@@ -50,8 +50,7 @@
     font-size: 20px; 
     font-weight: 500;
     line-height: 185%;
-    // width: 600px;
-    // height: 150px;
+    padding: 20px 0;
     
 
 }
@@ -62,16 +61,16 @@
 
 }
 
-.container-feedback__name--line {
+.container-feedback__line {
     width: 26px;
     height: 1px;
     background-color: $colorTextBox;
-    transform: translateY(30px);
+    transform: translateY(12px);
     margin-right: 10px;
 
 }
 
-.container-feedback__name--customer {
+.container-feedback__customer {
     color: $colorHeaderBodyTextBox;
     font-size: 18px;
     font-weight: 800;
